@@ -1,0 +1,78 @@
+<br><br><br><br><br><br><br><br><br><br>
+<fieldset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<style type="text/css">
+    body{
+    text-align: center;
+    background-image: linear-gradient(to right,#42d300,cornflowerblue);
+   }
+   fieldset {
+   box-shadow: -3px -3px 5px grey,3px 3px 15px grey;
+   background: whitesmoke;
+   border: none;
+   border-radius: 1vw; 
+}
+
+.pass{
+
+    color: black;
+    position: absolute;
+    left: 62px;
+    top: 70vw;
+}
+
+.user{
+    color: black;
+    position: absolute;
+    left: 62px;
+    top: 88vw;
+}    
+
+input{
+box-shadow: -3px -3px 5px grey,3px 3px 15px grey;
+text-align: center;
+height: 9vw;
+    width:80vw;
+    border: 2px solid cornflowerblue;
+    border-radius: 1vw;
+    outline-color: cornflowerblue;
+outline-offset: -4px;
+}
+
+.login button{
+    box-shadow: -3px -3px 5px grey,3px 3px 15px grey;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    background: white;
+     background-size: cover;
+     background-position: center;
+    width: 25vw;
+    height: 8vw;
+}
+
+.register {
+    color: cornflowerblue;
+    text-decoration: white;
+    width: 20vh;
+    height: 4vh;
+    }
+</style>
+<body>
+    <h1>Sign In</h1>
+     <a href="#" class="user"><i class="fas fa-user-alt"></i></a><input type="username" name="username" id="username" placeholder="Enter Username" required ><br><br>
+     <br><a href="#" class="pass"><i class="fas fa-lock"></i></a><input type="password" name="password" id="password" placeholder="Enter Password" required >
+     <br><br><br>
+     <a href="" class="login" type="submit"><button type="submit">Login</button></a><br><br><br>
+     
+     <label>Dont have an account ? </label><a href="register.html" class="register">Sign Up</a>
+     
+</fieldset>
+</body>
+</html>
